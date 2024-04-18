@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket pricing</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--FontAwsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container content-padding text-center">
+        <h1>Ticket Pricing</h1>
+        <div class="flex-row margin">
+            <label for="nome">Inserisci il tuo nome e cognome</label><input id="nome" type="text"
+                placeholder="inserisci il tuo nome e cognome">
+        </div>
+        <div class="flex-row margin">
+            <label for="eta">Inserisci la tua eta</label><input id="eta" type="number"
+                placeholder="Inserisci la tua eta">
+        </div>
+        <div class="flex-row margin">
+            <label for="kmpercorsi">Inserisci i km che vuoi percorrere</label><input id="kmpercorsi" type="number"
+                placeholder="Inserisci i kilometri">
+        </div>
+        <div class="margin flex-center">
+            <button id="myButton">Calcola</button>
+        </div>
+
+        <div class="margin flex-center">
+            <h4 id="tuoprezzo">--Calcola il tuo prezzo--</h4>
+        </div>
+
+        <div class="margin flex-center">
+            <h4 id="tuatariffa">--Calcola la tua tariffa--</h4>
+        </div>
+
+        <div class="margin flex-center">
+            <h4 id="tuacarrozza">--Calcola la tua Carrozza--</h4>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
